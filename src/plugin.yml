@@ -1,0 +1,11 @@
+name: TestPlugin
+version: 1.0.0
+description: A test plugin for anyone who needs ANOTHER example of my work.
+Author: FlairHead
+main: io.flairhead.testplugin.TestPlugin
+database: false
+
+permissions:
+    testplugin.force.override:
+        description: Allow players to move items in their inventory even when force-keep-items is set to true.
+        default: op
